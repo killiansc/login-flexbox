@@ -1,0 +1,158 @@
+body {
+
+	display: flex;
+	align-items: center;
+
+    min-height: 100vh;
+    margin: 0;
+
+    font-family: 'Roboto';
+    font-weight: 300;
+
+}
+
+h1, h2 {
+    display: inline-block;
+}
+
+.app {
+
+	display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+
+    margin-bottom: 100px;
+
+}
+
+.title {
+
+    margin-bottom: 15px;
+
+}
+
+.title__page {
+
+    margin-left: 10px;
+	font-weight: 300;
+
+}
+
+.login {
+
+	display: flex;
+    align-self: center;
+    align-items: stretch;
+
+    padding: 20px;
+    background-color: #f9f9f9;
+
+	box-shadow: 0 0 15px 1px #cccccc;
+
+}
+
+.login__social {
+
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+    padding-right: 15px;
+    border-right: 1px solid #aaaaaa;
+
+}
+
+.google {
+    color: #F44336;
+}
+
+.facebook {
+    color: #283593;
+}
+
+.twitter {
+    color: #2196F3;
+}
+
+.github {
+    color: black;
+}
+
+.login__normal {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.login__field {
+
+	display: flex;
+	margin: 10px;
+
+}
+
+.login__field > label {
+
+	flex-grow: 1;
+	margin-right: 20px;
+    align-self: center;
+    text-align: right;
+    cursor: pointer;
+
+}
+
+.login__field > input {
+
+    padding: 5px;
+    border-radius: 1px;
+    border: 1px solid #aaaaaa;
+    transition: border-color 0.5s;
+
+}
+
+input, button {
+    outline: none;
+}
+
+input:focus, button:focus {
+    border-color: #3C8DBC;
+}
+
+input:hover:not(:focus), button:hover:not(:focus) {
+    border-color: #555555;
+}
+
+.login__submit {
+
+    align-self: stretch;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    margin-top: 15px;
+    padding: 8px 24px;
+    cursor: pointer;
+
+}
+
+.other {
+
+    margin-top: 15px;
+
+}
+
+.link {
+
+	text-decoration: none;
+	color: #3C8DBC;
+
+}
+
+.link:hover {
+
+    color: #5EAFDE;
+
+}
